@@ -6,5 +6,5 @@ def intersectionEye(list1, list2):
 
     Returns:  The unique element(s) in both lists as an array.
     '''
-    return [x for x in list1 if x in list2]
+    return [x for x in list1 if x in list2] 
 

@@ -6,14 +6,14 @@ def litmus(x, y):
 
     Return: 
     '''
-    try:
-        if x > 0 and y > 0:
+    try: 
+        if x > 0 and y > 0: # Checks if both of them aregreater than 0.
             return f'{x} and {y} are both positive.'
-        elif x > 0 and y < 0:
+        elif x > 0 and y < 0: # Checks is first is greater than 0 while the other is less t.han 0
             return f'{x} is positive and {y} is negative.'
-        elif x < 0 and y> 0:
+        elif x < 0 and y> 0:  # Checks is first is less than 0 while the other is greater than 0.
             return f'{x} is negative and {y} is positive.'
-        else:
+        else:  # Checks if both of them aregreater than 0
             return f'{x} and {y} are both negative.'
-    except:
+    except: # If not a number
         return 'Something went wrong.'
