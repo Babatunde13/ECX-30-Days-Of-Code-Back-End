@@ -8,4 +8,3 @@ def stringSplitter(string):
     '''
     return [j for j in string]  # Returns each element in a string as a list.
 
-print(stringSplitter('str'))
