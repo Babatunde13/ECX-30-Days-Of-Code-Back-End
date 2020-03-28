@@ -9,4 +9,3 @@ def secret_map(*ele):
     mapper = lambda a: a ** 2 # Functions that returns square of it's parameter
     return list(map(mapper, ele)) # Maps the function to the iterable
     
-print(secret_map(3, 4, 5))
