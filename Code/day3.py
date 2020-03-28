@@ -2,6 +2,7 @@ def vowel_counter(text):
     '''
     A function named vowel_counter which counts the number of vowels in the text.
     '''
-    vowels, count = 'aeiou', 0
-    return sum([text.lower().count(vowel) for vowel in vowels])
+
+    vowels = 'aeiou' # vowels variable
+    return sum([text.lower().count(vowel) for vowel in vowels]) # Counts the number of time each vowel is present in text and sums it.
 
