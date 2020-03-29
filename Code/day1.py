@@ -5,6 +5,9 @@ def litmus(x, y):
     Parameters: x and y, both integers
 
     Return: 
+    
+    @author: Babatunde Koiki
+    Created on 2020-03-28 
     '''
     try: 
         if x > 0 and y > 0: # Checks if both of them aregreater than 0.

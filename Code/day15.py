@@ -5,6 +5,9 @@ def sentenceBuilder(data):
     Parameter: an array which contains dictionaries, these dictionaries contains only one key: value pair
 
     Returns: each of the values in a sentence form.
+    
+    @author: Babatunde Koiki
+    Created on 2020-03-28
     '''
 
     list_ = [name['name'] for name in data] # Gets each value pair

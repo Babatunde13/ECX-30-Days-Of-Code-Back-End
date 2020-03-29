@@ -5,6 +5,9 @@ def secret_map(*ele):
     Parameter: Takes an infinite number of parameter and turns it into a list.
 
     Returns: The square of each element passed in as a list. 
+    
+    @author: Babatunde Koiki
+    Created on 2020-03-28
     '''
     mapper = lambda a: a ** 2 # Functions that returns square of it's parameter
     return list(map(mapper, ele)) # Maps the function to the iterable

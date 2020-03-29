@@ -8,6 +8,9 @@ def reminderFunction(date_of_birth="13-06-2002"):
     Parameter: takes the date which we want to compare with the birthday as a string in the format dd-mm-yyyy
 
     Return: Passed if date has been passed, otherwse Not Passes
+    
+    @author: Babatunde Koiki
+    Created on 2020-03-28
     '''
     
     date_of_birth = datetime.datetime.strptime(date_of_birth, '%d-%m-%Y')

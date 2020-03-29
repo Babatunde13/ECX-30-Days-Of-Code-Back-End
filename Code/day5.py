@@ -5,6 +5,9 @@ def noReverse(string):
     Parameter: string, a text of type(str)
 
     Returns: Returns true if the string s palindrome.
+    
+    @author: Babatunde Koiki
+    Created on 2020-03-28
     '''
 
     string = string.replace(' ', '') # Removes all the empty spaces

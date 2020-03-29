@@ -5,6 +5,9 @@ def sum_array(array):
     Parameter: array, a sequence of element.
 
     Returns: Sum of the array
+    
+    @author: Babatunde Koiki
+    Created on 2020-03-28
     '''
 
     return sum(array)

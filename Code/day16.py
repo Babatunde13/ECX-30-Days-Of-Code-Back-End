@@ -5,6 +5,9 @@ def stringConverter(x):
     Parameter: A numeric string
 
     Return: The number as type int or error if not possible.
+    
+    @author: Babatunde Koiki
+    Created on 2020-03-28
     '''
 
     try:
